@@ -7,7 +7,7 @@ let note5;
 let summe = 0;
 let anzahlNoten = 0 ; //schadet nie wenn man einer variable einen wert übergibt weil der meistens überschrieben wird, wenn man nichts zuweißt rechnet das programm bei einem lehren textfeld mit NaN und der computer kann hier die anzahlNoten nicht erhöhen oder summe nicht erhöhen
 
-let ergebnis;//das ist neu hier hfasfafj
+let ergebnis;//das ist neu hier hfasfafj ewgsh
 
     function tfAuslesen() {
         note1 = parseInt(document.getElementById("tf_note1").value); //parseInt wandelt das ausgegebene Textfeld in eine Zahl um . die variable note bekommt nun einen wert
