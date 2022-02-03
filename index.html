@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Notenrechner</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+<h1>Notenrechner</h1>
+<p>Rechne hier deinen Notendurchschnitt aus.</p>
+<img src="img/yzhblnn6.bmp" height="200" width="400"/>
+<p></p>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_note1">
+        <label class="mdl-textfield__label" for="tf_note1">Note...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_note2">
+        <label class="mdl-textfield__label" for="tf_note2">Note...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_note3">
+        <label class="mdl-textfield__label" for="tf_note3">Note...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_note4">
+        <label class="mdl-textfield__label" for="tf_note4">Note...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<!-- Numeric Textfield -->
+<form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="tf_note5">
+        <label class="mdl-textfield__label" for="tf_note5">Note...</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+    </div>
+</form>
+
+<button id="meinButton" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="tfAuslesen()">
+    Knopf
+</button>
+
+<p>Dein Durchschnitt ist:</p>
+<p id="ausgabe" >  </p> <!--mit der id kann man das textfeld ansprechen wo der wert ausgegeben wird, das Textfeld leer gelassene feld wird mit der zahl des ergebnisses überschrieben-->
+<p id="fehlermeldung"></p>
+</body>
+</html>
