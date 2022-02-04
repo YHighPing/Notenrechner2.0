@@ -73,6 +73,7 @@ if(ergebnis<12){ //&& beide verknüpfungen bilden ein UND,|| oder
 
  }
 */
+    //new comment 05.02.2022. 00:43
 }
 
 
